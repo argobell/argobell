@@ -2,7 +2,6 @@
 
 ### Developer passionate about building intelligent agent applications
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Argobell&label=Profile views&color=0e75b6&style=flat" alt="Argobell" /> </p>
 
 - 🔭 I'm currently working on **an intelligent agent application project using Go**
 
