@@ -17,8 +17,8 @@
 ### ⚙️ GitHub Analytics
 
 <p align="center">
-  <a href="https://github.com/Argobell">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Argobell&layout=compact&langs_count=8&theme=algolia"/>
+  <a href="https://github.com/argobell">
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=argobell&layout=compact&langs_count=8&theme=algolia"/>
   </a>
 </p>
 
@@ -26,8 +26,8 @@
 
 <h3 align="left">🤝🏻 Connect with me:</h3>
 <p align="left">
-<a href="https://github.com/Argobell" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Argobell" height="30" width="40" /></a>
-<a href="mailto:argocot@gmail.com"> <img align="center" src="https://skillicons.dev/icons?i=gmail" alt="Argobell" height="30" width="40"/> </a>
+<a href="https://github.com/argobell" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="argobell" height="30" width="40" /></a>
+<a href="mailto:argocot@gmail.com"> <img align="center" src="https://skillicons.dev/icons?i=gmail" alt="argobell" height="30" width="40"/> </a>
 </p>
 
 <h3 align="left">🛠 Languages and Tools:</h3>
