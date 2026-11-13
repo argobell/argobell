@@ -37,7 +37,7 @@
       <text x="52" y="153" fill="url(#name)" font-size="91">ZIHANG XU<tspan fill="#B4F27C">.</tspan></text>
     </g>
     <text x="58" y="192" font-family="'Segoe UI',Arial,sans-serif" font-size="21" letter-spacing="-.3" fill="#B3C0D7">Intelligent agents. Thoughtful systems.</text>
-    <text x="59" y="225" font-family="Consolas,'Liberation Mono',monospace" font-size="12" fill="#7385A5">Go / Python / Backend engineering / AI</text>
+    <text x="59" y="225" font-family="Consolas,'Liberation Mono',monospace" font-size="12" fill="#7385A5">Curiosity / Experimentation / Useful systems</text>
     <g transform="translate(58 254)">
       <rect width="64" height="25" rx="5" fill="#142D35" stroke="#24454D"/><text x="32" y="17" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#72DDD5">BUILD</text>
       <rect x="74" width="68" height="25" rx="5" fill="#223225" stroke="#384C30"/><text x="108" y="17" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#B4E88C">LEARN</text>
@@ -50,7 +50,7 @@
       <circle cx="18" cy="18" r="3.5" fill="#F09195"/><circle cx="31" cy="18" r="3.5" fill="#E7CB7D"/><circle cx="44" cy="18" r="3.5" fill="#9ACB84"/>
       <text x="389" y="21" text-anchor="end" font-family="Consolas,monospace" font-size="9" fill="#657793">~/agent-lab</text>
       <g font-family="Consolas,'Liberation Mono',monospace" font-size="12">
-        <text x="22" y="65" fill="#62DDD4">❯ <tspan fill="#DFE7F5">go run ./agent</tspan></text>
+        <text x="22" y="65" fill="#62DDD4">❯ <tspan fill="#DFE7F5">start exploring</tspan></text>
         <text x="22" y="98" fill="#A998E1">[think]<tspan fill="#98AAC4"> understand the problem</tspan></text>
         <text x="22" y="124" fill="#62DDD4">[build]<tspan fill="#98AAC4"> make it work</tspan></text>
         <text x="22" y="150" fill="#B4E88C">[learn]<tspan fill="#98AAC4"> make it better</tspan></text>
