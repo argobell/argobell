@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Zihang Xu / argobell — Intelligent agents. Thoughtful systems.</title>
+  <desc id="description">A midnight-blue terminal banner with oversized typography, an orbital agent network, and subtle animated cyan and lime accents.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#080D19"/><stop offset=".55" stop-color="#0D1425"/><stop offset="1" stop-color="#101C2E"/></linearGradient>
+    <linearGradient id="name" x1="55" y1="90" x2="670" y2="245" gradientUnits="userSpaceOnUse"><stop stop-color="#F2F6FF"/><stop offset=".7" stop-color="#DDE8FF"/><stop offset="1" stop-color="#80E7E5"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#55DDD5"/><stop offset=".52" stop-color="#B4F27C"/><stop offset="1" stop-color="#AE91FF"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#32C9C8" stop-opacity=".12"/><stop offset="1" stop-color="#32C9C8" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#6688A9" stroke-opacity=".07"/></pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="418" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .cursor{animation:blink 1.4s steps(2,end) infinite}.beacon{animation:breathe 4s ease-in-out infinite}.signal{stroke-dasharray:5 10;animation:flow 16s linear infinite}.orbit{transform-origin:963px 172px;animation:rotate 90s linear infinite}.star{animation:breathe 5s ease-in-out infinite}
+    @keyframes blink{50%{opacity:0}}@keyframes breathe{0%,100%{opacity:.45}50%{opacity:1}}@keyframes flow{to{stroke-dashoffset:-180}}@keyframes rotate{to{transform:rotate(360deg)}}
+    @media(prefers-reduced-motion:reduce){.cursor,.beacon,.signal,.orbit,.star{animation:none}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#background)"/>
+    <rect width="1200" height="420" fill="url(#grid)"/>
+    <ellipse cx="953" cy="153" rx="316" ry="270" fill="url(#glow)"/>
+    <path d="M0 1H1200" stroke="url(#accent)" stroke-width="3"/>
+    <g font-family="Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.8">
+      <path d="m55 40 6 6-6 6m12 0h10" stroke="#62DDD4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="91" y="50" fill="#8394B3">ARGOBELL / PERSONAL SPACE</text>
+      <circle class="beacon" cx="1000" cy="46" r="3" fill="#B4F27C"/>
+      <text x="1014" y="50" fill="#9CAFC4" font-size="9" letter-spacing="1.2">ALWAYS EXPLORING</text>
+    </g>
+    <g class="orbit" stroke="#65DCD6" stroke-opacity=".16">
+      <circle cx="963" cy="172" r="141"/>
+      <circle cx="963" cy="172" r="177" stroke-dasharray="2 11"/>
+      <ellipse cx="963" cy="172" rx="202" ry="78" transform="rotate(-32 963 172)"/>
+      <circle cx="822" cy="172" r="5" fill="#60DAD4" stroke="none"/>
+      <circle cx="1098" cy="132" r="4" fill="#B4F27C" stroke="none"/>
+      <circle cx="944" cy="348" r="3" fill="#AE91FF" stroke="none"/>
+    </g>
+    <g font-family="'Segoe UI',Arial,sans-serif" font-weight="800" letter-spacing="-5">
+      <text x="52" y="153" fill="url(#name)" font-size="91">ZIHANG XU<tspan fill="#B4F27C">.</tspan></text>
+    </g>
+    <text x="58" y="192" font-family="'Segoe UI',Arial,sans-serif" font-size="21" letter-spacing="-.3" fill="#B3C0D7">Intelligent agents. Thoughtful systems.</text>
+    <text x="59" y="225" font-family="Consolas,'Liberation Mono',monospace" font-size="12" fill="#7385A5">Go / Python / Backend engineering / AI</text>
+    <g transform="translate(58 254)">
+      <rect width="64" height="25" rx="5" fill="#142D35" stroke="#24454D"/><text x="32" y="17" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#72DDD5">BUILD</text>
+      <rect x="74" width="68" height="25" rx="5" fill="#223225" stroke="#384C30"/><text x="108" y="17" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#B4E88C">LEARN</text>
+      <rect x="152" width="80" height="25" rx="5" fill="#27223B" stroke="#42365A"/><text x="192" y="17" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#B9A3F1">ITERATE</text>
+    </g>
+    <g transform="translate(730 100)">
+      <rect x="5" y="8" width="410" height="220" rx="11" fill="#030712" fill-opacity=".4"/>
+      <rect width="410" height="220" rx="11" fill="#0C1423" stroke="#2B3A50"/>
+      <path d="M0 35H410" stroke="#243146"/>
+      <circle cx="18" cy="18" r="3.5" fill="#F09195"/><circle cx="31" cy="18" r="3.5" fill="#E7CB7D"/><circle cx="44" cy="18" r="3.5" fill="#9ACB84"/>
+      <text x="389" y="21" text-anchor="end" font-family="Consolas,monospace" font-size="9" fill="#657793">~/agent-lab</text>
+      <g font-family="Consolas,'Liberation Mono',monospace" font-size="12">
+        <text x="22" y="65" fill="#62DDD4">❯ <tspan fill="#DFE7F5">go run ./agent</tspan></text>
+        <text x="22" y="98" fill="#A998E1">[think]<tspan fill="#98AAC4"> understand the problem</tspan></text>
+        <text x="22" y="124" fill="#62DDD4">[build]<tspan fill="#98AAC4"> make it work</tspan></text>
+        <text x="22" y="150" fill="#B4E88C">[learn]<tspan fill="#98AAC4"> make it better</tspan></text>
+        <text x="22" y="189" fill="#62DDD4">❯</text><rect class="cursor" x="39" y="179" width="7" height="12" rx="1" fill="#B4F27C"/>
+        <text x="389" y="190" text-anchor="end" font-size="9" fill="#516581">curiosity never exits</text>
+      </g>
+    </g>
+    <path class="signal" d="M605 263H650V210H713" stroke="#62DDD4" stroke-opacity=".5" stroke-width="1.5"/>
+    <circle cx="605" cy="263" r="3" fill="#62DDD4"/>
+    <path class="star" d="M1146 73v14m-7-7h14" stroke="#B4F27C" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M58 351H1142" stroke="#223047"/>
+    <text x="58" y="383" font-family="Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="1.5" fill="#60728F">A LITTLE CURIOSITY. A LOT OF POSSIBILITY.</text>
+    <g transform="translate(918 370)" stroke="#788AAA" stroke-width="1.3" stroke-linecap="round"><path d="M0 4a7 7 0 1 0 10 10A8 8 0 0 1 0 4Z"/></g>
+    <text x="941" y="383" font-family="Consolas,'Liberation Mono',monospace" font-size="9" fill="#8293AF">BEST COMMITS AFTER MIDNIGHT</text>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="419" rx="18" stroke="#263349"/>
+</svg>
